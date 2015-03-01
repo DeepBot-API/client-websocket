@@ -19,9 +19,7 @@ Responses will always be json objects in the following format:
 
 To authenticate, send the below message.
 
-```
-"api|register|{secret}"
-```
+## `"api|register|{secret}"`
 
 A successful  would be a json object.
 ```json
@@ -50,6 +48,7 @@ A successful  would be a json object.
 		"vip_expiry": "2014-12-09T00:00:00+08:00"
 	}
 }
+```
 
 ## `api|get_points|:user`
 
@@ -123,12 +122,12 @@ A successful  would be a json object.
         <tr>
             <td><code>:level</code></td>
             <td>integer</td>
-            <td>Level of VIP. 0 or 10 = Normal user. 1 = VIP Bronze, 2 = Silver, 3 = Gold</td>
+            <td>Desilred VIP Level. 0 or 10 = Normal user. 1 = VIP Bronze, 2 = Silver, 3 = Gold</td>
         </tr>
         <tr>
             <td><code>:days</code></td>
             <td>integer</td>
-            <td>Number of days to add to VIP Expiry/</td>
+            <td>Number of days to add to VIP Expiry.</td>
         </tr>
     </tbody>
 </table>
