@@ -108,6 +108,33 @@ A successful  would be a json object.
 	"msg": "success"
 }
 ```
+## `api|add_to_escrow|:user|:points`
+
+```json
+{
+	"function": "add_to_escrow",
+	"param": "expertsonline",
+	"msg": "success" or "Not enough points" or "points should be a positive number" or "user not found"
+}
+```
+## `api|commit_user_escrow|:user`
+
+```json
+{
+	"function": "commit_user_escrow",
+	"param": "expertsonline",
+	"msg": "success" or "No points in escrow" or "user not found"
+}
+```
+## `api|cancel_escrow|:user`
+
+```json
+{
+	"function": "cancel_escrow",
+	"param": "expertsonline",
+	"msg": "success" or "No points in escrow" or "user not found"
+}
+```
 ## `api|set_vip|:user|:level|:days`
 
 <table>
