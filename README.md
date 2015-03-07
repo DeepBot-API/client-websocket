@@ -142,11 +142,6 @@ A successful  would be a json object.
             <td>string</td>
             <td>username or 'all'</td>
         </tr>
-        <tr>
-            <td><code>:days</code></td>
-            <td>integer</td>
-            <td>Number of days to add to VIP Expiry.</td>
-        </tr>
     </tbody>
 </table>
 
