@@ -128,6 +128,28 @@ A successful  would be a json object.
 ```
 ## `api|cancel_escrow|:user`
 
+<table>
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th width="50">Type</th>
+            <th width=100%>Description</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><code>:user</code></td>
+            <td>string</td>
+            <td>username or 'all'</td>
+        </tr>
+        <tr>
+            <td><code>:days</code></td>
+            <td>integer</td>
+            <td>Number of days to add to VIP Expiry.</td>
+        </tr>
+    </tbody>
+</table>
+
 ```json
 {
 	"function": "cancel_escrow",
@@ -149,7 +171,7 @@ A successful  would be a json object.
         <tr>
             <td><code>:level</code></td>
             <td>integer</td>
-            <td>Desilred VIP Level. 0 or 10 = Normal user. 1 = VIP Bronze, 2 = Silver, 3 = Gold</td>
+            <td>Desired VIP Level. 0 or 10 = Normal user. 1 = VIP Bronze, 2 = Silver, 3 = Gold</td>
         </tr>
         <tr>
             <td><code>:days</code></td>
