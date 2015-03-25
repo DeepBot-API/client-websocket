@@ -1,6 +1,6 @@
 # client-websocket
 ## Overview
-Documentation for the DeepBot Client WebSocket Library
+Documentation for the DeepBot Client WebSocket Library added in version 0.7.0
 
 ## Connection
 
