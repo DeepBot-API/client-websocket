@@ -4,11 +4,11 @@ Documentation for the DeepBot Client WebSocket Library added in version 0.7.0
 
 ## Connection
 
-The DeepBot WebSocket server runs on port 3337. Simply connect to this server using any websocket module to establish a connection.
+The DeepBot WebSocket server runs on port 3337 on the machine that is running DeepBot. Simply connect to this server using any websocket module to establish a connection.
 
-To authenticate as an API consumer, you will need the client API secret. This can be found in the master settings.
+To authenticate as an API consumer, you will need the client API secret. This can be found in the master settings on DeepBot.
 
-Responses will always be json objects in the following format:
+Responses from the API will always be json objects in the following format:
 ```
 {
 	"function": "",
@@ -17,11 +17,11 @@ Responses will always be json objects in the following format:
 }
 ```
 
-To authenticate, send the below message.
+To authenticate as an API consumer, send the below message. This is needed for most functions.
 
 ## `"api|register|{secret}"`
 
-A successful  would be a json object.
+A successful authentication response would be a json object.
 ```json
 {
 	"function": "register",
