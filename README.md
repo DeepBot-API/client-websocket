@@ -50,6 +50,68 @@ A successful authentication response would be a json object.
 }
 ```
 
+## `api|get_users|:offset|:limit`
+<table>
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th width="50">Type</th>
+            <th width=100%>Description</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><code>:offset</code></td>
+            <td>integer</td>
+            <td>optional</td>
+        </tr>
+        <tr>
+            <td><code>:limit</code></td>
+            <td>integer</td>
+            <td>optional</td>
+        </tr>
+    </tbody>
+</table>
+
+```json
+{
+	"function": "get_users",
+	"param": "users",
+	"msg": {
+		{
+			"user": "tom",
+			"points": 720.0,
+			"watch_time": 13125.0,
+			"vip": 10,
+			"mod": 5,
+			"join_date": "2014-07-05T18:09:10.3156084Z",
+			"last_seen": "2015-03-01T04:17:09.545139Z",
+			"vip_expiry": "2014-12-09T00:00:00+08:00"
+		},
+		{
+			"user": "expertsonline",
+			"points": 320.0,
+			"watch_time": 3125.0,
+			"vip": 10,
+			"mod": 5,
+			"join_date": "2014-07-05T18:09:10.3156084Z",
+			"last_seen": "2015-03-01T04:17:09.545139Z",
+			"vip_expiry": "2014-12-09T00:00:00+08:00"
+		},
+		{
+			"user": "jon",
+			"points": 120.0,
+			"watch_time": 3125.0,
+			"vip": 10,
+			"mod": 5,
+			"join_date": "2014-07-05T18:09:10.3156084Z",
+			"last_seen": "2015-03-01T04:17:09.545139Z",
+			"vip_expiry": "2014-12-09T00:00:00+08:00"
+		}
+	}
+}
+```
+
 ## `api|get_points|:user`
 
 ```json
