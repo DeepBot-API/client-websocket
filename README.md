@@ -112,7 +112,7 @@ A successful authentication response would be a json object.
 }
 ```
 
-## `api|get_users|:offset|:limit`
+## `api|get_top_users|:offset|:limit`
 <table>
     <thead>
         <tr>
