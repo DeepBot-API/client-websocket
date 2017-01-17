@@ -607,3 +607,6 @@ Users sorted by decending order of points.
    }
 }
 ```
+
+## `api|run_command|:commandName`
+You can run a command as the bot!
