@@ -68,7 +68,7 @@ A successful authentication response would be a json object.
         <tr>
             <td><code>:limit</code></td>
             <td>integer</td>
-            <td>optional.(Default = 100)</td>
+            <td>optional.(Default = 100, max = 100)</td>
         </tr>
     </tbody>
 </table>
@@ -130,7 +130,7 @@ A successful authentication response would be a json object.
         <tr>
             <td><code>:limit</code></td>
             <td>integer</td>
-            <td>optional.(Default = 100)</td>
+            <td>optional.(Default = 100, max = 100)</td>
         </tr>
     </tbody>
 </table>
@@ -447,7 +447,7 @@ Users sorted by decending order of points.
         <tr>
             <td><code>:limit</code></td>
             <td>integer</td>
-            <td>optional (Default = 100)</td>
+            <td>optional (Default = 100, max = 100)</td>
         </tr>
     </tbody>
 </table>
@@ -495,7 +495,7 @@ Users sorted by decending order of points.
         <tr>
             <td><code>:limit</code></td>
             <td>integer</td>
-            <td>optional (Default = 100)</td>
+            <td>optional (Default = 100, max = 100)</td>
         </tr>
     </tbody>
 </table>
